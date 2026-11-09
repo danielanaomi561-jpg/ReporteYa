@@ -1,0 +1,36 @@
+!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Reporte Ya - Sistema de Gestión</title>
+</head>
+<body>
+
+    <h1>SISTEMA DE REPORTES: ReporteYa</h1>
+    <h2>Registra los problemas que afectan al barrio o la institución</h2>
+    <p>Completa el siguiente formulario para informar sobre una falla o rotura:</p>
+
+    <form action="https://formsubmit.co/danielanaomi561@gmail.com,agustinasevero799@gmail.com,bialee2312009@gmail.com,biancamareco2312009@gmail.com,duartejulieta807@gmail.com" method="POST">
+
+        <input type="hidden" name="_captcha" value="false">
+
+        <label for="categoria">Categoría del problema:</label><br>
+        <select id="categoria" name="categoria">
+            <option value="electricidad">Electricidad</option>
+            <option value="sanitarios">Sanitarios</option>
+            <option value="mobiliario">Mobiliario</option>
+            <option value="otro">Otro</option>
+        </select><br><br>
+
+        <label for="ubicacion">Ubicación exacta:</label><br>
+        <input type="text" id="ubicacion" name="ubicacion" placeholder="Ej: Aula 3"><br><br>
+
+        <label for="problema">Descripción del problema:</label><br>
+        <input type="text" id="problema" name="problema" placeholder="Ej: Luz rota"><br><br>
+
+        <button type="submit">Enviar Reclamo</button>
+
+    </form>
+
+</body>
+</html>
